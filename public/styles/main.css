@@ -1,0 +1,79 @@
+.music-search-input{
+    border-radius: 5px!important;
+    margin-right: 5px!important;
+}
+#pButton {
+    float: left;
+  }
+  
+  #timeline {
+    width: 90%;
+    height: 2px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  #pButton {
+    margin-top: 12px;
+    cursor: pointer;
+  }
+  
+  #playhead {
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: -3px;
+    background: black;
+    cursor: pointer;
+  }
+
+  .music-card-outer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    margin: 10px;
+    flex-direction: column;
+  }
+  .music-card-inner{
+    width: 80%;
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .music-card-inner-image > img{
+    height: 80px;
+    width: 80px;
+  }
+  .music-card-inner-info{
+    margin: 5px;
+  }
+  .music-card-inner-info > div > p{
+    font-size: medium;
+  }
+  .music-card-inner-info > div > h2{
+    font-size: x-large;
+  }
+
+  @media screen and (max-width: 600px) {
+    .music-card-inner-image >  img{
+      height: 80px;
+      width: 80px;
+    }
+    .music-card-inner-info > div > p {
+      font-size: smaller;
+    }
+    .music-card-inner-info > div > h2{
+      font-size: medium;
+    }
+  }
